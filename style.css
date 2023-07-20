@@ -1,0 +1,1244 @@
+*{
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.lin-color{
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+nav{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0 0;
+    background-color: #FFF;
+}
+.logo-box{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+}
+.text-box{
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: end;
+    font-size: 18px;
+    color: #3C354F;
+    font-style: normal;
+    font-weight: 500;
+}
+.text-box a{
+    text-decoration: none;
+}
+.fallow-icon{
+    background-color:rgba(11, 2, 35, 0.10);
+    padding: 10px 13px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.follow{
+    margin-right: 10px;
+}
+
+.fa-youtube{
+    color:#FF0000;
+    padding-left: 20px;
+}
+.fa-youtube :hover {
+    cursor: pointer;
+    color: yellow;
+}
+.fa-tiktok{
+    color: black;
+}
+.fa-tiktok :hover {
+    cursor: pointer;
+    color: #010101c6;
+}
+
+
+.banner-container{
+    max-width: 1500px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    height: 98vh;
+}
+.banner-under-text{
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    background-image: url('./images/Group 14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text h4{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.banner-text h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+.banner-icon{
+    margin-top: -50px;
+    margin-left:-94px ;
+}
+.banner-icon li{
+    list-style: none;
+    text-align:start;
+    margin-left: 120px;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+.banner-btn-container{
+    margin-top: 50px;
+}
+.banner-btn{
+    padding: 18px 35px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin:0 auto;
+    border: none;
+}
+.btn{
+    background-color: rgb(251, 2, 242);
+}
+.banner-images{
+    width: 50%;
+}
+.banner-images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.games-title-box{
+    margin-top: 100px;
+    padding-bottom: 3rem;}
+.games-title-box h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.games-title-box p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.20rem;
+    font-weight: 400;
+}
+
+
+
+.games-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.games-card{
+    border-radius: 1rem;
+    width: 250px;
+    height: 355px;
+    text-align: start;
+}
+.game-img{
+    width: 100%;
+}
+
+
+.anniversary-container{
+    max-width: 1500px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.anniversari-text{
+    text-align: end;
+}
+.anniversari-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.anniversari-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight:400 ;
+    line-height: 30px;
+}
+.anniversari-images{
+    text-align: center;
+    position: relative;
+}
+.img-one{
+    width: 80%;
+}
+.img-two{
+    width: 50%;
+}
+.anniversari-images .img-two{
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}
+
+
+.games-catagori-container{
+    max-width: 1500px;
+    width: 95%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6rem;
+}
+.game-name{
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.games-catagori-container :hover{
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 50px;
+    color:goldenrod;
+}
+
+
+footer{
+    height: fit-content;
+    background-color: #010101;
+    color: white;
+    margin-top: 4.50rem;
+}
+.footer-container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 4rem;
+    text-align: center;
+}
+.footer-container .footer-logo{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.footer-link a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.footer-social-link a{
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.footer-social-link a :hover{
+    color: gold;
+    cursor: pointer;
+}
+.footer-treams{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer-treams a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+
+    nav{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .logo-box{
+        margin-top: 2rem;
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-box{
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .fallow-icon{
+        font-size: 8px;
+        width: 140px;
+        font-weight: 500;
+    }
+   
+    
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: -0px;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-images{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner-text{
+        width: 100%;
+        background-image: url('./images/Group 14.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    
+    } 
+    .banner-text h4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .banner-text h1{
+        font-size: 70px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: -25px;
+    }
+    .banner-icon{
+        margin-top: -25px;
+    }
+    .banner-icon li{
+        font-size: 15px;
+        text-align: left;
+        margin-left:160px;
+    }
+    .banner-btn-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -0px;
+    }
+    .banner-btn{
+        padding: 10px 20px;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        border: none;
+    }
+    
+    
+    .games-title-box{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .games-title-box h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .games-title-box p{
+        font-size: 13px;
+    }
+    
+    .games-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .anniversary-container{
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    .anniversari-text{
+        text-align: center;
+        width: 90%;
+    }
+    .anniversari-images{
+        width: 90%;
+        margin-top: -6rem;
+    }
+    .img-two{
+        width: 40%;
+        margin-left: 2.50rem;
+    }
+    .games-catagori-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .game-name img{
+        width: 30px;
+    }
+    .game-name h3{
+        font-size: 8px;
+        align-items: center;
+    }
+    
+    
+    .footer-link,
+    .footer-social-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-link,
+    .footer-treams{
+        color: #FFF;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .footer-treams{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    }
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .nav{
+        align-items: center;
+        margin-top: 100px;
+    }
+    .text-box a{
+        font-size: 12px;
+    }
+    .banner-container{
+        margin-top: 700px;
+        flex-direction: column-reverse;
+    }
+    .banner-images{
+        width: 80%;
+    }
+    .banner-text{
+        width: 100%;
+        padding-bottom: -100px;
+        margin-top: 1rem;
+        text-align: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .banner-btn-container{
+        margin-top: -0px;
+    }
+
+    .games-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .games-card{
+        margin: 0 auto;
+    }
+
+    .anniversary-container{
+        flex-direction: column;
+    }
+    .anniversari-text{
+        text-align: center;
+        align-items: center;
+    }
+    .anniversari-images{
+        width: 75%;
+        margin: 0 auto;
+    }
+}*{
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+nav{
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px 0 0;
+    background-color: #FFF;
+}
+.logo-box{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+}
+.text-box{
+    gap: 20px;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: end;
+    font-size: 18px;
+    color: #3C354F;
+    font-style: normal;
+    font-weight: 500;
+}
+.text-box a{
+    text-decoration: none;
+}
+.fallow-icon{
+    background-color:rgba(11, 2, 35, 0.10);
+    padding: 10px 13px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.follow{
+    margin-right: 10px;
+}
+
+.fa-youtube{
+    color:#FF0000;
+    padding-left: 20px;
+}
+.fa-youtube :hover {
+    cursor: pointer;
+    color: yellow;
+}
+.fa-tiktok{
+    color: black;
+}
+.fa-tiktok :hover {
+    cursor: pointer;
+    color: #010101c6;
+}
+
+.banner-container{
+    max-width: 1500px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    height: 98vh;
+}
+.banner-under-text{
+    line-height: normal;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    background-image: url('./images/Group 14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text h4{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.banner-text h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+.banner-icon{
+    margin-top: -50px;
+    margin-left:-94px ;
+}
+.banner-icon li{
+    list-style: none;
+    text-align:start;
+    margin-left: 120px;
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+.banner-btn-container{
+    margin-top: 50px;
+}
+.banner-btn{
+    padding: 18px 35px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin:0 auto;
+    border: none;
+}
+.btn{
+    background-color: rgb(251, 2, 242);
+}
+.banner-images{
+    width: 50%;
+}
+.banner-images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.games-title-box{
+    margin-top: 100px;
+    padding-bottom: 3rem;}
+.games-title-box h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.games-title-box p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.20rem;
+    font-weight: 400;
+}
+
+
+
+.games-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.games-card{
+    border-radius: 1rem;
+    width: 250px;
+    height: 355px;
+    text-align: start;
+}
+.game-img{
+    width: 100%;
+}
+
+
+
+.anniversary-container{
+    max-width: 1500px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+.anniversari-text{
+    text-align: end;
+}
+.anniversari-text h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.anniversari-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight:400 ;
+    line-height: 30px;
+}
+.anniversari-images{
+    text-align: center;
+    position: relative;
+}
+.img-one{
+    width: 80%;
+}
+.img-two{
+    width: 50%;
+}
+.anniversari-images .img-two{
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}
+
+
+.games-catagori-container{
+    max-width: 1500px;
+    width: 95%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 6rem;
+}
+.game-name{
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.games-catagori-container :hover{
+    border: 1px solid rgb(73, 69, 69);
+    cursor: pointer;
+    border-radius: 50px;
+    color:goldenrod;
+}
+
+
+footer{
+    height: fit-content;
+    background-color: #171325;
+    color: white;
+    margin-top: 4.50rem;
+}
+.footer-container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 4rem;
+    text-align: center;
+}
+.footer-container .footer-logo{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.footer-link a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.footer-social-link a{
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.footer-social-link a :hover{
+    color: rgb(241, 207, 11);
+    cursor: pointer;
+}
+.footer-treams{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer-treams a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+
+    nav{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .logo-box{
+        margin-top: 2rem;
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-box{
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .fallow-icon{
+        font-size: 8px;
+        width: 140px;
+        font-weight: 500;
+    }
+   
+    
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        margin-top: -0px;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-images{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner-text{
+        width: 100%;
+        background-image: url('./images/Group 14.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    
+    } 
+    .banner-text h4{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .banner-text h1{
+        font-size: 70px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: -25px;
+    }
+    .banner-icon{
+        margin-top: -25px;
+    }
+    .banner-icon li{
+        font-size: 15px;
+        text-align: left;
+        margin-left:160px;
+    }
+    .banner-btn-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -0px;
+    }
+    .banner-btn{
+        padding: 10px 20px;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        border: none;
+    }
+    
+    
+    .games-title-box{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .games-title-box h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .games-title-box p{
+        font-size: 13px;
+    }
+    
+    .games-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .anniversary-container{
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    .anniversari-text{
+        text-align: center;
+        width: 90%;
+    }
+    .anniversari-images{
+        width: 90%;
+        margin-top: -6rem;
+    }
+    .img-two{
+        width: 40%;
+        margin-left: 2.50rem;
+    }
+    .games-catagori-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .game-name img{
+        width: 30px;
+    }
+    .game-name h3{
+        font-size: 8px;
+        align-items: center;
+    }
+    
+    
+    .footer-link,
+    .footer-social-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-link,
+    .footer-treams{
+        color: #FFF;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .footer-treams{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    }
+
+
+
+
+
+@media (min-width: 577px) and (max-width: 991.98px) {
+
+    .nav{
+        align-items: center;
+        margin-top: 100px;
+    }
+    .text-box a{
+        font-size: 12px;
+    }
+    .banner-container{
+        margin-top: 700px;
+        flex-direction: column-reverse;
+    }
+    .banner-images{
+        width: 80%;
+    }
+    .banner-text{
+        width: 100%;
+        padding-bottom: -100px;
+        margin-top: 1rem;
+        text-align: center;
+        align-items: center;
+        height: 120vh;
+    }
+    .banner-btn-container{
+        margin-top: -0px;
+    }
+
+    
+    .games-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .games-card{
+        margin: 0 auto;
+    }
+
+    .anniversary-container{
+        flex-direction: column;
+    }
+    .anniversari-text{
+        text-align: center;
+        align-items: center;
+    }
+    .anniversari-images{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+    }
+    @media only screen and (max-width: 576px) {
+    
+    nav{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .logo-box{
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 2rem;
+        padding-left: 60px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .text-box{
+        padding-left: 60px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    .fallow-icon{
+        margin-bottom: 1rem;
+        padding: 10px;
+        font-size: 12px;
+        gap: 5px;
+        width: 150%;
+    }
+ 
+    
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-images{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .banner-text{
+        width: 100%;
+   
+        background-image: url('./images/Group 14.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    
+    } 
+    .banner-text h4{
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .banner-text h1{
+        text-align: center;
+        font-size: 60px;
+        font-size: 70px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: -25px;
+    }
+    .banner-icon li{
+        margin-left: 90px;
+        line-height: 50px;
+        font-size: 9px;
+        text-align: left;
+        margin-right: 100px;
+        margin-top:-40px ;
+    }
+    .banner-btn-container {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    .banner-btn-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .banner-btn{
+        padding: 10px 15px;
+        border-radius: 40px;
+        background: #4EC5F7;
+        padding: 10px 20px;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 1.25rem;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        border: none;
+    }
+    .btn{
+        background-color: rgb(251, 2, 242);
+    }
+    
+    
+    .games-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        margin: 0 auto;
+    }
+    .games-title-box{
+        margin-top: 50px;
+        padding-bottom: 2rem;}
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .games-title-box h2{
+        color: #0B0223;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .games-title-box p{
+        color: #534C64;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
+    .games-card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .anniversary-container{
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    .anniversari-text{
+        width: 100%;
+        text-align:center;
+    }
+    .anniversari-text h3{
+        color: #0B0223;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .anniversari-text p{
+        color: #534C64;
+        font-size: 12px;
+        font-weight:400 ;
+        line-height: 20px;
+        text-align: center;
+        width: 90%;
+    }
+    .anniversari-images{
+        width: 90%;
+        margin-top: -160px;
+        margin-top: -6rem;
+    }
+    .img-two{
+        width: 40%;
+        margin-left: 2.50rem;
+    }
+    .games-catagori-container{
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .game-name img{
+        width: 30px;
+    }
+    .game-name h3{
+        font-size: 8px;
+        align-items: center;
+    }
+    
+    
+    .footer-link,
+    .footer-social-link{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-link,
+    .footer-treams{
+        color: #FFF;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    .footer-treams{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
